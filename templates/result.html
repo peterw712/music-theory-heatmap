@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Music Theory Heatmap Result</title>
+  </head>
+  <body>
+    <h1>Music Theory Heatmap Result</h1>
+    <h2>Progression Frequency Matrix ({{ matrix_size }} x {{ matrix_size }})</h2>
+    <pre>{{ frequency_matrix }}</pre>
+    <h2>Heatmap Visualization</h2>
+    <img src="data:image/png;base64,{{ img_b64 }}" alt="Heatmap">
+    <br>
+    <a href="{{ url_for('index') }}">Back</a>
+  </body>
+</html>
