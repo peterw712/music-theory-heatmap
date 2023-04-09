@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Music Theory Heatmap</title>
+  </head>
+  <body>
+    <h1>Music Theory Heatmap</h1>
+    <form method="POST">
+      <label for="matrix_size">Matrix size:</label>
+      <input type="number" name="matrix_size" min="1" required><br><br>
+      <label for="input_data">Enter progressions separated by commas, using integers from 1 to the matrix size (e.g., 1,4,5,1). Use one line per progression:</label><br>
+      <textarea name="input_data" rows="10" cols="30" required></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
